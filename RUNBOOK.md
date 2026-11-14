@@ -12,8 +12,24 @@ Runs every day at 10:45 AM IST. Everything goes live around 11:00 AM IST.
 
 ## Steps
 1. Find today's row (IST date) in the Calendar sheet. If Status is already `Posted`, stop.
-2. **Feed post:** `python3 tools/make_media.py post posts/YYYY-MM-DD.jpg "<kicker>" "<short title>" "<1–2 sentence body>"`.
-   Kicker = the part of the topic before ":" (or "Natural dyes"); title = the short headline (max ~8 words); body = a short version of the caption.
+2. **Feed post = a CAROUSEL** (the user's chosen format, from the reference posts they sent).
+   Column C starts with e.g. `[carousel 7 slides · cover: question]`: make exactly that many slides (5, 7 or 10;
+   Instagram's API allows 10 at most) with that cover type. Write `posts/YYYY-MM-DD/spec.json` and run
+   `python3 tools/carousel.py posts/YYYY-MM-DD/spec.json posts/YYYY-MM-DD`. Slide types and fields: docstring of
+   `tools/carousel.py`; full example: `tools/examples/carousel.json`.
+   - Slide 1 = the cover type from column C (series / question / education / statement / boxed).
+   - Middle slides tell the topic step by step: mix `point` slides (numbered facts) with `spotlight`
+     (a dye or ingredient: English name, Hindi/local name, Latin name), `labels` (fibre, mordant or depth comparisons)
+     and `statement` / `boxed`. Never two identical layouts in a row.
+   - Last slide is always `end` with a CTA.
+   - Text stays short: titles ≤ 6 words, bodies ≤ 25 words. Every slide must add something new.
+   - Images: real photos from `photos/` first; otherwise generated scenes (`fabric`, `stack`, `powder`, `ecoprint`,
+     `liquid`) or swatches. Use colours that match the dye being discussed, and a different seed on every slide.
+   - Caption: column F plus "Swipe ➡️ to see all N" plus column G's hashtags. If the topic in C no longer matches F,
+     write a fresh caption in the same voice.
+   - Publish with `create_carousel_post` {image_urls: [all slide URLs in order], caption}.
+   - Rows with no tag (after 15 Dec): keep cycling 5 → 7 → 10 slides and the 5 cover types, with fresh topics that
+     haven't been used (check `posts/` for past spec.json titles).
 3. **Story:** `python3 tools/make_media.py story stories/YYYY-MM-DD.jpg "<kicker>" "<question or fact>" "<short line>"`.
    The API can't add poll, quiz or question stickers, so write the story as a question card ("Reply in DMs / comment on today's post").
 4. **Reel (Mon/Wed/Fri only, when column D has text):** column D starts with the style in brackets,
@@ -47,7 +63,7 @@ Runs every day at 10:45 AM IST. Everything goes live around 11:00 AM IST.
 6. `git add`, commit, and push to `main` (use `git -c push.negotiate=true push origin HEAD`).
    Wait ~30 s, then check that each raw URL returns HTTP 200.
 7. Publish with Windsor `execute_action`:
-   - `create_image_post` {image_url, caption = column F + blank line + column G}
+   - `create_carousel_post` {image_urls, caption} (see step 2)
    - `create_story` {image_url}
    - reel days: `create_video_post` {video_url, caption, share_to_feed: true}
 8. Set Status (column I) to `Posted`, or to `Skipped` with the reason if something failed.

@@ -1,0 +1,17 @@
+{"slides": [
+  {"type": "series", "name": "INDIGO", "image": {"swatch": "arashi", "color": "#1f3a6e", "seed": 3}},
+  {"type": "education", "line1": "The Blue That", "accent": "Built Empires", "line2": "Still Grows Here",
+   "quote": "Indigo has coloured cloth for thousands of years. Today it comes to your dye house as a ready extract.",
+   "dots": ["#1f3a6e", "#2f5596", "#4b74b8", "#7f9fd1", "#b8cbe8"], "swipe": "Swipe for the indigo story"},
+  {"type": "spotlight", "name": "Indigo", "local": "Neel", "latin": "Indigofera tinctoria",
+   "image": {"scene": "powder", "color": "#1d2f5c", "seed": 4}},
+  {"type": "point", "num": "01", "title": "It starts as a green leaf", "body": "The colour is hidden in the leaf, not visible until it meets air.",
+   "color": "#2f5596", "image": {"scene": "fabric", "color": "#4a7a3a", "seed": 5}},
+  {"type": "point", "num": "02", "title": "Air turns it blue", "body": "Cloth comes out of the vat green-yellow and turns blue as it oxidises.",
+   "color": "#2f5596", "image": {"swatch": "ombre", "color": "#1f3a6e", "seed": 6}},
+  {"type": "labels", "title": "One Dye, Many Blues", "labels": ["1 dip", "3 dips", "6 dips", "10 dips", "15 dips"],
+   "colors": ["#b8cbe8", "#7f9fd1", "#4b74b8", "#2f5596", "#1b2f5e"]},
+  {"type": "statement", "big": "100% PLANT BLUE", "caption_bold": "INDIGO", "caption": "- from leaf to extract, no petroleum in the vat.",
+   "image": {"swatch": "kumo", "color": "#1f3a6e", "seed": 7}},
+  {"type": "end", "line1": "Colour from nature.", "line2": "Made in Jaipur.", "cta": "DM us for indigo samples"}
+]}
