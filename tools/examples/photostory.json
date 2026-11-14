@@ -1,0 +1,16 @@
+{
+  "hook": {"line1": "One white cloth.", "line2": "One indigo vat.", "line3": "What happens next?",
+           "image": {"swatch": "sunburst", "color": "#1f3a6e", "seed": 7}},
+  "title": {"big1": "NATURAL", "big2": "COLOURS", "italic": "From plants, not petroleum",
+            "info": ["Natural dye extracts for textiles", "Made in Jaipur"]},
+  "chapters": [
+    {"image": {"swatch": "chevron", "color": "#2a4f8f", "seed": 1}, "title": "Fold.", "sub": "Pleats become a resist"},
+    {"image": {"swatch": "kumo", "color": "#1f3a6e", "seed": 2}, "title": "Bind.", "sub": "Thread holds the dye back"},
+    {"image": {"swatch": "itajime", "color": "#a3262f", "seed": 3}, "title": "Dip.", "sub": "Plant colour on a mordanted cloth"},
+    {"image": {"swatch": "arashi", "color": "#1f3a6e", "seed": 4}, "title": "Oxidise.", "sub": "Indigo turns blue in the air"},
+    {"image": {"swatch": "spiral", "color": "#7a1f3d", "seed": 5}, "title": "Layer.", "sub": "Two dyes, one cloth"},
+    {"image": {"swatch": "sunburst", "color": "#a3262f", "seed": 6}, "title": "Reveal.", "sub": "Untie it. That moment never gets old."}
+  ],
+  "end": {"line1": "Traditional knowledge.", "line2": "Modern dye extracts.",
+          "name": "Sodhani Biotech", "role": "Natural dyes & dye extracts · Jaipur", "cta": "DM us for samples"}
+}

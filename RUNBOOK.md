@@ -20,6 +20,15 @@ Runs every day at 10:45 AM IST. Everything goes live around 11:00 AM IST.
    e.g. `[quiz] Guess the plant…`. Write `reels/YYYY-MM-DD.json` for that style, then run
    `python3 tools/reels.py reels/YYYY-MM-DD.json reels/YYYY-MM-DD.mp4`.
    Styles and their JSON fields are in the docstring of `tools/reels.py`; working examples are in `tools/examples/`.
+   - **`photostory` is the user's favourite style and the default** (modelled on a reference reel they sent):
+     run `python3 tools/photostory.py reels/YYYY-MM-DD.json reels/YYYY-MM-DD.mp4` instead of reels.py.
+     Spec format: docstring of `tools/photostory.py`, example `tools/examples/photostory.json`.
+     Hook = 2 short lines + a question; title card = two big words + an italic line; 5–7 chapters, each ONE word with
+     a full stop ("Fold.", "Soak.", "Extract.") plus a ≤7-word gold sub-line; end card = two-line slogan + CTA.
+     Images: use real photos from `photos/` whenever there are any that fit (vary them; don't reuse the same photo
+     two reels in a row). Otherwise use generated swatches `{"swatch": ..., "color": ..., "seed": N}` with a
+     different seed each time and colours that match the dye being talked about.
+     Music is generated inside the tool (original, no licensing).
    - `pour`: colour flowing over white fabric. Use realistic dye colours (indigo #1f3a68, madder #a8322d, pomegranate #c99a2e, catechu #6b4a2b, marigold #d9a21b).
    - `quiz`: guess the plant or colour. End the caption with "Comment your answer before you watch the end! 👇".
    - `mythfact`: 2–3 myth/fact pairs.
@@ -30,7 +39,8 @@ Runs every day at 10:45 AM IST. Everything goes live around 11:00 AM IST.
      textile dyeing pollution or sustainable textiles, from a reputable outlet. Paraphrase it in your own words
      (headline ≤ 12 words, summary ≤ 30 words) and put the outlet and date in `source`. Name the source in the caption too.
      Never invent news. If nothing suitable is found, use a `top3` about the benefits of natural dyes instead.
-   - If D has no style tag (e.g. after 15 Dec), choose the style used least recently and pick a fresh topic:
+   - If D has no style tag (e.g. after 15 Dec): use `photostory` on Mondays and Fridays; on Wednesdays use one of the
+     other styles, whichever was used least recently. Pick a fresh topic each time:
      dyeing process, mini workshops, natural vs synthetic, dye extracts, benefits, mordants, colour sources, or news.
    Write a reel caption: 1–2 hooky lines, a question or CTA, then the same hashtags as the day's post.
 5. Look at each image (and 3–4 frames of the reel, grabbed with ffmpeg). Check that the text fits and nothing is cut off.
