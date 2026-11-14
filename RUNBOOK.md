@@ -10,6 +10,20 @@ Runs every day at 10:45 AM IST. Everything goes live around 11:00 AM IST.
 - **Media hosting:** this repo. Public URL pattern:
   `https://raw.githubusercontent.com/organic-ctrl/naturaldyes-social/main/<path>`
 
+## Product knowledge (READ FIRST)
+`data/products.json` is the single source of truth: 27 extract products (source, Latin name, part used,
+fresh/waste, antibacterial flag, shade hex), 29 natural dyes, 11 mordants and the company facts (40% lower carbon footprint,
+80% lesser ETP cost, wastewater BOD/COD/SS figures, 100% bio-based carbon (C-14), 30% from plant waste, 95% solvent recovery,
+locations). `data/company-factsheet.jpg` is the original fact sheet.
+- Every post and reel is about OUR products or OUR facts. Use exact product names (e.g. "Mallow Gold Extract", "Wine Red Extract 3001").
+- Use each product's `shade` hex for swatches, fabric scenes and colour blocks so the colours match the real product.
+- Never invent products, grades, prices, MOQs, certifications, fastness ratings or test results.
+- Lac (Wine Red) and Cochineal are from insects: call them "natural", never "plant-based".
+- Only the products flagged `antibacterial: true` may be called antibacterial.
+- After 15 Dec, keep rotating through products that haven't had a spotlight yet (e.g. Michigan Brown, Garnet Brown,
+  Bark Brown, Nut Brown, Onion Peel, Cedar Grey, Cochineal, Barn Red, Wisdom Orange, Crafty Brown, Heena, Kamala, Safflower,
+  Primrose Yellow, Jonquil Yellow, Silver Oak/Jamun, Eupatorium) and company facts not yet covered.
+
 ## Steps
 1. Find today's row (IST date) in the Calendar sheet. If Status is already `Posted`, stop.
 2. **Feed post = a CAROUSEL** (the user's chosen format, from the reference posts they sent).
