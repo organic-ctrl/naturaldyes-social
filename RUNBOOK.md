@@ -94,7 +94,7 @@ locations). `data/company-factsheet.jpg` is the original fact sheet.
 Every reel has a different concept, as the user asked. Before writing a reel, list the concepts already used:
 reel JSON files in `reels/` plus column D of the calendar. Don't repeat a concept, and don't reuse the same hook
 line or chapter words. Concepts used so far:
-plant waste to colour (text cards, 16 Nov) · fibre test · shibori story · indigo leaf to blue · natural vs synthetic ·
+plant waste to colour (text cards, 16 Nov) · onion peel: kitchen waste to yellow (photostory, posted 15 Nov) · fibre test · shibori story · indigo leaf to blue · natural vs synthetic ·
 dye-source tour · mordants · news · plant waste to colour (photostory) · mini workshop: using an extract ·
 over-dyeing quiz · wedding-season palette · year in colour 2026.
 Fresh ideas for after 15 Dec: myth vs fact, top 3 benefits, the science of colour fastness, water & ETP savings,

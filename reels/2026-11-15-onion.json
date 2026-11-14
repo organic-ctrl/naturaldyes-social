@@ -1,0 +1,15 @@
+{
+  "hook": {"line1": "Kitchen waste.", "line2": "Bright yellow.", "line3": "Can onion skins dye fabric?",
+           "image": {"swatch": "sunburst", "color": "#d9a80a", "seed": 21}},
+  "title": {"big1": "ONION", "big2": "PEEL", "italic": "From kitchen waste to colour",
+            "info": ["Onion Peel Extract · Onion Peel Extract Bright", "Allium cepa · made from waste peels"]},
+  "chapters": [
+    {"image": {"swatch": "ombre", "color": "#c9a227", "seed": 22}, "title": "Collect.", "sub": "Onion skins nobody wants"},
+    {"image": {"swatch": "spiral", "color": "#e4c92d", "seed": 23}, "title": "Extract.", "sub": "Colour drawn from the peels"},
+    {"image": {"swatch": "arashi", "color": "#d8c21f", "seed": 24}, "title": "Dye.", "sub": "Into the dye bath"},
+    {"image": {"swatch": "kumo", "color": "#f0cd09", "seed": 25}, "title": "Choose.", "sub": "Two grades: Extract & Bright"},
+    {"image": {"swatch": "chevron", "color": "#e4e12d", "seed": 26}, "title": "Reveal.", "sub": "Yellow from what was thrown away"}
+  ],
+  "end": {"line1": "Kitchen waste.", "line2": "Brilliant colour.",
+          "name": "Sodhani Biotech", "role": "Natural dyes & dye extracts · Jaipur", "cta": "DM us for samples"}
+}

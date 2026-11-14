@@ -58,6 +58,8 @@ def cover(img, w, h):
 
 def blurred_bg(img, darken=0.45):
     bg = cover(img, W // 4, H // 4).filter(ImageFilter.GaussianBlur(10)).resize((W, H), Image.BICUBIC)
+    lum = np.asarray(bg.convert("L"), float).mean() / 255
+    darken = min(0.75, darken + 0.7 * max(0.0, lum - 0.40))  # light colours (yellows) need more shade for text
     return Image.blend(bg, Image.new("RGB", (W, H), (0, 0, 0)), darken)
 
 
@@ -90,7 +92,9 @@ def brand(d):
 # ---------------------------------------------------------------- scenes
 def scene_hook(h, img):
     full = cover(img, W, H)
-    grad = Image.linear_gradient("L").resize((W, H)).point(lambda v: int(170 * (1 - v / 255) ** 1.6))
+    lum = np.asarray(full.convert("L"), float).mean() / 255
+    top = int(170 + 70 * max(0.0, lum - 0.40))
+    grad = Image.linear_gradient("L").resize((W, H)).point(lambda v: int(top * (1 - v / 255) ** 1.6))
     shade = Image.new("RGB", (W, H), (0, 0, 0))
     base = Image.composite(shade, full, grad)
 
