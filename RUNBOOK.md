@@ -16,10 +16,24 @@ Runs every day at 10:45 AM IST. Everything goes live around 11:00 AM IST.
    Kicker = the part of the topic before ":" (or "Natural dyes"); title = the short headline (max ~8 words); body = a short version of the caption.
 3. **Story:** `python3 tools/make_media.py story stories/YYYY-MM-DD.jpg "<kicker>" "<question or fact>" "<short line>"`.
    The API can't add poll, quiz or question stickers, so write the story as a question card ("Reply in DMs / comment on today's post").
-4. **Reel (Mon/Wed/Fri only, when column D has text):**
-   `python3 tools/make_media.py reel reels/YYYY-MM-DD.mp4 "<hook>" "<point 1>" "<point 2>" "<CTA>"`.
-   Write a reel caption: 1–2 lines plus the same hashtags.
-5. Look at each image (and a frame of the reel). Check that the text fits and nothing is cut off.
+4. **Reel (Mon/Wed/Fri only, when column D has text):** column D starts with the style in brackets,
+   e.g. `[quiz] Guess the plant…`. Write `reels/YYYY-MM-DD.json` for that style, then run
+   `python3 tools/reels.py reels/YYYY-MM-DD.json reels/YYYY-MM-DD.mp4`.
+   Styles and their JSON fields are in the docstring of `tools/reels.py`; working examples are in `tools/examples/`.
+   - `pour`: colour flowing over white fabric. Use realistic dye colours (indigo #1f3a68, madder #a8322d, pomegranate #c99a2e, catechu #6b4a2b, marigold #d9a21b).
+   - `quiz`: guess the plant or colour. End the caption with "Comment your answer before you watch the end! 👇".
+   - `mythfact`: 2–3 myth/fact pairs.
+   - `top3`: three short items (max ~6 words each).
+   - `compare`: 3–5 rows. Natural vs synthetic, or extracts vs raw powders.
+   - `steps`: a mini workshop / dyeing process in 3–5 short steps.
+   - `news`: search the web for a REAL recent (last ~30 days) news item about natural dyes, plant-based colour,
+     textile dyeing pollution or sustainable textiles, from a reputable outlet. Paraphrase it in your own words
+     (headline ≤ 12 words, summary ≤ 30 words) and put the outlet and date in `source`. Name the source in the caption too.
+     Never invent news. If nothing suitable is found, use a `top3` about the benefits of natural dyes instead.
+   - If D has no style tag (e.g. after 15 Dec), choose the style used least recently and pick a fresh topic:
+     dyeing process, mini workshops, natural vs synthetic, dye extracts, benefits, mordants, colour sources, or news.
+   Write a reel caption: 1–2 hooky lines, a question or CTA, then the same hashtags as the day's post.
+5. Look at each image (and 3–4 frames of the reel, grabbed with ffmpeg). Check that the text fits and nothing is cut off.
 6. `git add`, commit, and push to `main` (use `git -c push.negotiate=true push origin HEAD`).
    Wait ~30 s, then check that each raw URL returns HTTP 200.
 7. Publish with Windsor `execute_action`:
