@@ -30,6 +30,12 @@ Runs every day at 10:45 AM IST. Everything goes live around 11:00 AM IST.
 9. If no row exists for today (after 15 Dec 2026), write a new row in the same style (rotate: dye spotlight,
    education, myth vs fact, sustainability, customer inspiration, behind the scenes, fun fact) and append it to the sheet first.
 
+## Special cases (one-off, launch weekend)
+- **15 Nov 2026:** there is no row. The 16 Nov feed post went live early, at 00:30 on 15 Nov, as a test.
+  Post only a story today, using the 16 Nov row's story idea. Do not post a feed image and do not add a row.
+- **16 Nov 2026:** the feed post is already live (Status says `Ready`). Post only the reel and a story,
+  and write a fresh story question in the same style instead of repeating yesterday's. Then set Status to `Posted`.
+
 ## Rules
 - Only make claims that are already in the calendar or that are well established about natural dyes. No prices, no certifications.
 - Never put price lists, customer names or files in this repo: it is public.
