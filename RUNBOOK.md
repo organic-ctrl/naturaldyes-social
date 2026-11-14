@@ -60,6 +60,18 @@ Runs every day at 10:45 AM IST. Everything goes live around 11:00 AM IST.
 - **16 Nov 2026:** the feed post AND the reel are already live (both posted as tests on 15 Nov). Post only a story:
   write a fresh story question in the same style instead of repeating yesterday's. Then set Status to `Posted`.
 
+## Reel concepts must never repeat
+Every reel has a different concept, as the user asked. Before writing a reel, list the concepts already used:
+reel JSON files in `reels/` plus column D of the calendar. Don't repeat a concept, and don't reuse the same hook
+line or chapter words. Concepts used so far:
+plant waste to colour (text cards, 16 Nov) · fibre test · shibori story · indigo leaf to blue · natural vs synthetic ·
+dye-source tour · mordants · news · plant waste to colour (photostory) · mini workshop: using an extract ·
+over-dyeing quiz · wedding-season palette · year in colour 2026.
+Fresh ideas for after 15 Dec: myth vs fact, top 3 benefits, the science of colour fastness, water & ETP savings,
+farmers behind the dyes, extracts vs raw powders, block printing with natural dyes, colour of the month,
+dyeing at home vs at mill scale, how to store dye extracts, eco-printing with leaves, indigo vat chemistry made
+simple, Holi/festival colours, customer creations.
+
 ## Rules
 - Only make claims that are already in the calendar or that are well established about natural dyes. No prices, no certifications.
 - Never put price lists, customer names or files in this repo: it is public.
