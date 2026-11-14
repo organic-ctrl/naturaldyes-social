@@ -33,8 +33,8 @@ Runs every day at 10:45 AM IST. Everything goes live around 11:00 AM IST.
 ## Special cases (one-off, launch weekend)
 - **15 Nov 2026:** there is no row. The 16 Nov feed post went live early, at 00:30 on 15 Nov, as a test.
   Post only a story today, using the 16 Nov row's story idea. Do not post a feed image and do not add a row.
-- **16 Nov 2026:** the feed post is already live (Status says `Ready`). Post only the reel and a story,
-  and write a fresh story question in the same style instead of repeating yesterday's. Then set Status to `Posted`.
+- **16 Nov 2026:** the feed post AND the reel are already live (both posted as tests on 15 Nov). Post only a story:
+  write a fresh story question in the same style instead of repeating yesterday's. Then set Status to `Posted`.
 
 ## Rules
 - Only make claims that are already in the calendar or that are well established about natural dyes. No prices, no certifications.
