@@ -1,0 +1,94 @@
+{
+ "slides": [
+  {
+   "type": "education",
+   "kicker": "SODHANI BIOTECH · JAIPUR",
+   "line1": "Reinventing",
+   "accent": "Natural Dyes",
+   "line2": "for Industry",
+   "quote": "Plant- and bacteria-based dyestuffs, made in Jaipur for mills, brands and artisans who want colour without the pollution.",
+   "dots": [
+    "#3c58ac",
+    "#e42d30",
+    "#fac439",
+    "#be775a",
+    "#65b062"
+   ],
+   "swipe": "Swipe to meet us"
+  },
+  {
+   "type": "stats",
+   "kicker": "Our range",
+   "color": "#3c58ac",
+   "stats": [
+    {
+     "big": "27",
+     "label": "natural dye extracts"
+    },
+    {
+     "big": "29",
+     "label": "natural dye materials"
+    },
+    {
+     "big": "11",
+     "label": "mordants"
+    }
+   ]
+  },
+  {
+   "type": "point",
+   "num": "01",
+   "title": "Colour from plants & waste",
+   "body": "30% of our colours come from plant waste: pomegranate peel, onion skin, marigold petals, areca nut and lac.",
+   "color": "#abb45b",
+   "image": {
+    "scene": "fabric",
+    "color": "#abb45b",
+    "seed": 31
+   }
+  },
+  {
+   "type": "point",
+   "num": "02",
+   "title": "Built for industrial dyeing",
+   "body": "Concentrated extracts made for commercial dye houses, alongside traditional dye powders for artisans.",
+   "color": "#3c58ac",
+   "image": {
+    "swatch": "arashi",
+    "color": "#3c58ac",
+    "seed": 32
+   }
+  },
+  {
+   "type": "point",
+   "num": "03",
+   "title": "Research-led",
+   "body": "Our R&D facility is at ECH, University of Rajasthan, where we also work on colour from microbes.",
+   "color": "#c11172",
+   "image": {
+    "scene": "liquid",
+    "color": "#c11172",
+    "seed": 33
+   }
+  },
+  {
+   "type": "point",
+   "num": "04",
+   "title": "Organic cotton, too",
+   "body": "We also offer organic cotton handloom fabric, ready for natural dyeing or printing.",
+   "color": "#be775a",
+   "image": {
+    "scene": "fabric",
+    "color": "#efe6d6",
+    "seed": 34
+   }
+  },
+  {
+   "type": "end",
+   "line1": "Colour from nature.",
+   "line2": "Made in Jaipur.",
+   "cta": "DM us for samples & the shade card",
+   "contact": "naturaldyes.io  ·  DM us on Instagram"
+  }
+ ]
+}

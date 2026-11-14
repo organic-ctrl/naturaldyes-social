@@ -23,6 +23,8 @@ Slide types:
              Text in black highlight boxes over a photo.
   point      {"num": "01", "title": "Renewable", "body": "Plant sources grow back every season.", "color": "#4f7a3a", "image"}
              A content slide: number, serif title, two-line body, image panel on top.
+  palette    {"title", "items": [{"name", "sub", "color"} x up to 9]}   product swatch grid
+  stats      {"kicker", "stats": [{"big": "80%", "label", "sub"} x1-3], "color", "note"}   big-number proof slide
   end        {"line1": "Colour from nature.", "line2": "Made in Jaipur.", "cta": "DM us for samples"}
 """
 import json, os, sys
@@ -285,12 +287,64 @@ def s_end(s, i, n):
     ctext(d, 820, "Sodhani Biotech", font(POP_SB, 54), WHITE)
     ctext(d, 900, "Natural dyes & dye extracts", font(POP, 36), (210, 205, 195))
     ctext(d, 1010, s.get("cta", "DM us for samples"), font(POP_SB, 44), GOLD)
+    if s.get("contact"):
+        ctext(d, 1080, s["contact"], fit_font(d, s["contact"], POP, 34, W - 160), (210, 205, 195))
     counter(d, i, n, (210, 205, 195))
     return im
 
 
+def s_palette(s, i, n):
+    """{"title": "Our Extracts (1/3)", "items": [{"name": "Mallow Gold", "sub": "Pomegranate peel", "color": "#abb45b"}, ... up to 9]}"""
+    im = Image.new("RGB", (W, H), CREAM)
+    d = ImageDraw.Draw(im)
+    ctext(d, 90, s.get("title", ""), fit_font(d, s.get("title", "x"), PF, 76, W - 160), INK)
+    d.line([(W / 2 - 50, 205), (W / 2 + 50, 205)], fill=GOLD, width=3)
+    items = s["items"][:9]
+    cols = 3
+    cw, ch = (W - 120) / cols, 330
+    for k, it in enumerate(items):
+        cx = 60 + cw * (k % cols) + cw / 2
+        cy = 260 + ch * (k // cols)
+        r = 95
+        d.ellipse([cx - r - 10, cy + 10, cx + r + 10, cy + 2 * r + 30], fill=(255, 255, 255))
+        d.ellipse([cx - r, cy + 20, cx + r, cy + 2 * r + 20], fill=it["color"])
+        nf = fit_font(d, it["name"], POP_SB, 32, cw - 20, 18)
+        ctext(d, cy + 2 * r + 45, it["name"], nf, INK, cx - cw / 2, cx + cw / 2)
+        sf = fit_font(d, it.get("sub", ""), POP, 26, cw - 20, 16)
+        ctext(d, cy + 2 * r + 88, it.get("sub", ""), sf, (130, 105, 80), cx - cw / 2, cx + cw / 2)
+    counter(d, i, n, (150, 120, 90))
+    return im
+
+
+def s_stats(s, i, n):
+    """{"kicker": "PROOF", "stats": [{"big": "80%", "label": "lesser ETP cost", "sub": "..."}, ... 1-3], "color": "#4f7a3a", "note": "source line"}"""
+    col = s.get("color", "#4f7a3a")
+    im = Image.new("RGB", (W, H), col)
+    d = ImageDraw.Draw(im)
+    if s.get("kicker"):
+        k = " ".join(s["kicker"].upper())
+        ctext(d, 110, k, fit_font(d, k, POP_SB, 30, W - 160), (255, 255, 255))
+    stats = s["stats"][:3]
+    big = 300 if len(stats) == 1 else (190 if len(stats) == 2 else 150)
+    block = (H - 360) / len(stats)
+    for k, st in enumerate(stats):
+        y = 220 + k * block + (block - big - 160) / 2
+        bf = fit_font(d, st["big"], POP_B, big, W - 140)
+        ctext(d, y, st["big"], bf, WHITE)
+        ctext(d, y + bf.size + 10, st["label"], fit_font(d, st["label"], PF_I, 64, W - 160), (255, 236, 200))
+        if st.get("sub"):
+            sf = font(POP, 34)
+            for j, l in enumerate(wrap(d, st["sub"], sf, W - 220)[:2]):
+                ctext(d, y + bf.size + 100 + j * 46, l, sf, (240, 235, 225))
+    if s.get("note"):
+        ctext(d, H - 140, s["note"], fit_font(d, s["note"], POP, 26, W - 160), (230, 225, 215))
+    counter(d, i, n, (240, 235, 225))
+    return im
+
+
 TYPES = {"series": s_series, "question": s_question, "education": s_education, "spotlight": s_spotlight,
-         "statement": s_statement, "labels": s_labels, "boxed": s_boxed, "point": s_point, "end": s_end}
+         "statement": s_statement, "labels": s_labels, "boxed": s_boxed, "point": s_point, "end": s_end,
+         "palette": s_palette, "stats": s_stats}
 
 
 def render(spec, out_dir):

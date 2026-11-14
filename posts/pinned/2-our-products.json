@@ -1,0 +1,226 @@
+{
+ "slides": [
+  {
+   "type": "series",
+   "script": "Our",
+   "bold": "Natural",
+   "series": "Dye Extract Range",
+   "name": "27 EXTRACTS",
+   "image": {
+    "scene": "stack",
+    "colors": [
+     "#e8ec1f",
+     "#fac439",
+     "#f57818",
+     "#e42d30",
+     "#c11172",
+     "#8a4fad",
+     "#3c58ac"
+    ],
+    "seed": 35
+   }
+  },
+  {
+   "type": "palette",
+   "title": "Our Extracts · 1 of 3",
+   "items": [
+    {
+     "name": "Cedar Yellow Dyeing",
+     "sub": "Myrobalan",
+     "color": "#cbc974"
+    },
+    {
+     "name": "Cedar Yellow Tannin",
+     "sub": "Myrobalan",
+     "color": "#d4d896"
+    },
+    {
+     "name": "Mallow Gold",
+     "sub": "Pomegranate peel",
+     "color": "#abb45b"
+    },
+    {
+     "name": "Apsara Yellow",
+     "sub": "Himalayan rhubarb",
+     "color": "#cead5b"
+    },
+    {
+     "name": "Michigan Brown",
+     "sub": "Black catechu",
+     "color": "#be775a"
+    },
+    {
+     "name": "Garnet Brown",
+     "sub": "Bark of acacia",
+     "color": "#ac856c"
+    },
+    {
+     "name": "Bark Brown",
+     "sub": "Arjuna",
+     "color": "#b69472"
+    },
+    {
+     "name": "Jaipur Pink",
+     "sub": "Sappan wood",
+     "color": "#ce697c"
+    },
+    {
+     "name": "Wine Red 2001",
+     "sub": "Lac",
+     "color": "#cf1794"
+    }
+   ]
+  },
+  {
+   "type": "palette",
+   "title": "Our Extracts · 2 of 3",
+   "items": [
+    {
+     "name": "Wine Red 3001",
+     "sub": "Lac",
+     "color": "#c11172"
+    },
+    {
+     "name": "Wine Red 4001",
+     "sub": "Lac",
+     "color": "#cb379d"
+    },
+    {
+     "name": "Turkey Red RT",
+     "sub": "Madder",
+     "color": "#e42d30"
+    },
+    {
+     "name": "Sun Yellow",
+     "sub": "Marigold",
+     "color": "#e8ec1f"
+    },
+    {
+     "name": "Candy Orange",
+     "sub": "Annatto",
+     "color": "#fac439"
+    },
+    {
+     "name": "Candy Orange Deep",
+     "sub": "Annatto",
+     "color": "#f57818"
+    },
+    {
+     "name": "Candy Orange 101",
+     "sub": "Annatto",
+     "color": "#f78d44"
+    },
+    {
+     "name": "Gallnut Dyeing G",
+     "sub": "Aleppo oak",
+     "color": "#bbaf81"
+    },
+    {
+     "name": "Gallnut Tannin G",
+     "sub": "Aleppo oak",
+     "color": "#d3d299"
+    }
+   ]
+  },
+  {
+   "type": "palette",
+   "title": "Our Extracts · 3 of 3",
+   "items": [
+    {
+     "name": "Nut Brown",
+     "sub": "Areca nut",
+     "color": "#965555"
+    },
+    {
+     "name": "Olive Green",
+     "sub": "Mulberry plant",
+     "color": "#65b062"
+    },
+    {
+     "name": "Onion Peel",
+     "sub": "Onion skin",
+     "color": "#e4e12d"
+    },
+    {
+     "name": "Onion Peel Bright",
+     "sub": "Onion skin",
+     "color": "#f0cd09"
+    },
+    {
+     "name": "Indigo Blue",
+     "sub": "Indigo",
+     "color": "#3c58ac"
+    },
+    {
+     "name": "Indigo Blue 2001",
+     "sub": "Indigo",
+     "color": "#3e55ae"
+    },
+    {
+     "name": "Cedar Grey",
+     "sub": "Myrobalan",
+     "color": "#868885"
+    },
+    {
+     "name": "Cochineal",
+     "sub": "Cochineal",
+     "color": "#ef2789"
+    },
+    {
+     "name": "Cuttak Blue",
+     "sub": "Alkanet",
+     "color": "#8a4fad"
+    }
+   ]
+  },
+  {
+   "type": "point",
+   "num": "+29",
+   "title": "Natural dye materials",
+   "body": "Henna, turmeric, palash, jamun, walnut skin, red sandalwood, safflower, kamala and more, for traditional dyeing.",
+   "color": "#be775a",
+   "image": {
+    "scene": "powder",
+    "color": "#b07a3a",
+    "seed": 36
+   }
+  },
+  {
+   "type": "point",
+   "num": "+11",
+   "title": "Mordants",
+   "body": "Alum, aluminium acetate, triformate, ferrous, copper, tin, cream of tartar, lodhra, hydro, caustic and potassium titanyl oxalate.",
+   "color": "#868885",
+   "image": {
+    "scene": "liquid",
+    "color": "#9aa0a6",
+    "seed": 37
+   }
+  },
+  {
+   "type": "labels",
+   "title": "Antibacterial Extracts",
+   "labels": [
+    "Cedar Yellow Dyeing",
+    "Jaipur Pink",
+    "Wine Red 2001/3001/4001",
+    "Candy Orange (3 grades)",
+    "Olive Green"
+   ],
+   "colors": [
+    "#cbc974",
+    "#ce697c",
+    "#c11172",
+    "#f57818",
+    "#65b062"
+   ]
+  },
+  {
+   "type": "end",
+   "line1": "Find your shade.",
+   "line2": "Ask for samples.",
+   "cta": "DM us for the shade card",
+   "contact": "naturaldyes.io  ·  DM us on Instagram"
+  }
+ ]
+}

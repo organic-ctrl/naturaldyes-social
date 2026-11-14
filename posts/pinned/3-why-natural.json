@@ -1,0 +1,91 @@
+{
+ "slides": [
+  {
+   "type": "question",
+   "text": "Why are dye houses switching to natural?",
+   "image": {
+    "scene": "ecoprint",
+    "seed": 38
+   }
+  },
+  {
+   "type": "stats",
+   "kicker": "Carbon",
+   "color": "#4f7a3a",
+   "stats": [
+    {
+     "big": "40%",
+     "label": "lower carbon footprint",
+     "sub": "LCA: GHG impact ~50% lower than the base case (2.08 kg CO2 eq.), energy use ~35% lower."
+    }
+   ]
+  },
+  {
+   "type": "stats",
+   "kicker": "Effluent",
+   "color": "#3c58ac",
+   "stats": [
+    {
+     "big": "80%",
+     "label": "lesser ETP cost",
+     "sub": "Natural dyeing puts far less load on your effluent treatment plant."
+    }
+   ]
+  },
+  {
+   "type": "stats",
+   "kicker": "Wastewater test · mg/L",
+   "color": "#2b3a55",
+   "stats": [
+    {
+     "big": "318 vs 5",
+     "label": "BOD",
+     "sub": "synthetic dyeing vs natural dyeing"
+    },
+    {
+     "big": "274 vs 8",
+     "label": "COD"
+    },
+    {
+     "big": "271 vs 6",
+     "label": "Suspended solids"
+    }
+   ],
+   "note": "Synthetic vs natural dyeing wastewater, from our comparison test"
+  },
+  {
+   "type": "stats",
+   "kicker": "Carbon-14 test",
+   "color": "#8a5a2b",
+   "stats": [
+    {
+     "big": "100%",
+     "label": "bio-based carbon",
+     "sub": "Radiocarbon analysis found no evidence of synthetic (petrochemical) carbon."
+    }
+   ]
+  },
+  {
+   "type": "stats",
+   "kicker": "Circularity",
+   "color": "#c46a2f",
+   "stats": [
+    {
+     "big": "30%",
+     "label": "of colours from plant waste"
+    },
+    {
+     "big": "95%",
+     "label": "solvent recovered after extraction"
+    }
+   ]
+  },
+  {
+   "type": "end",
+   "line1": "Better colour.",
+   "line2": "Cleaner water.",
+   "cta": "DM us to switch to natural",
+   "contact": "naturaldyes.io  ·  DM us on Instagram"
+  }
+ ]
+}
