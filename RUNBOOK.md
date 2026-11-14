@@ -90,6 +90,33 @@ locations). `data/company-factsheet.jpg` is the original fact sheet.
 - **16 Nov 2026:** the feed post AND the reel are already live (both posted as tests on 15 Nov). Post only a story:
   write a fresh story question in the same style instead of repeating yesterday's. Then set Status to `Posted`.
 
+## Comments & leads (do this every run, after publishing)
+1. Read comments from the last 3 days with Windsor `get_data` (connector `instagram`, fields
+   `comment_id, comment_text, comment_username, comment_timestamp, comment_parent_id, comment_reply_count, media_id, media_permalink`,
+   `date_preset: "last_7d"`). Skip comments that already have a reply from @naturaldye.sbpl (comment_reply_count > 0
+   or our reply in the thread) and comments written by @naturaldye.sbpl itself.
+2. Reply with `reply_to_comment` {comment_id, message}:
+   - Questions about price, MOQ, samples, shade card, export, bulk: thank them, give a one-line useful answer from
+     data/products.json if it's there, and invite them to DM us or visit naturaldyes.io. NEVER quote prices, MOQs,
+     delivery times or certifications.
+   - Product questions: answer only from data/products.json (source, Latin name, grades, antibacterial flag).
+   - Praise or emojis: a short, warm thank-you (vary the wording; never copy-paste the same reply).
+   - Reply in the language of the comment (Hindi/Hinglish → Hinglish; English → English).
+   - Keep replies under 200 characters, friendly and professional, max 1 emoji. Sign nothing.
+3. Spam, scams, abuse, "promote your page", crypto, adult content: `hide_comment` (never delete).
+4. Unsure or sensitive (complaints, quality issues, payment, legal, competitors)? Do NOT reply. List it under
+   "Needs Aman" in the run summary.
+5. Leads: anyone asking about price, samples, MOQ, bulk, export, distributorship or "interested". List each one in the
+   run summary as: @username · what they asked · post link. Also append it to the "Leads" sheet of the calendar
+   (columns: Date, Username, Comment, Post link, Status = "New") if that sheet exists.
+
+## Lead-friendly content rules
+- Every caption ends with ONE clear call to action: "DM us for samples", "Comment SHADE for the shade card",
+  "Save this for your next batch" or a question. Rotate them.
+- Once a week (Thursdays) the carousel's last slide uses the CTA "Comment SAMPLE and we'll DM you".
+- Hashtags: 8–12 per post, mixing broad (#naturaldyes #sustainablefashion), industry (#textiledyeing #dyehouse
+  #textilemanufacturing) and local (#jaipur #madeinindia #rajasthan). Vary them; never post the exact same set twice in a row.
+
 ## Reel concepts must never repeat
 Every reel has a different concept, as the user asked. Before writing a reel, list the concepts already used:
 reel JSON files in `reels/` plus column D of the calendar. Don't repeat a concept, and don't reuse the same hook
