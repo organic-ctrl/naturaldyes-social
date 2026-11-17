@@ -1,0 +1,56 @@
+{
+ "slides": [
+  {
+   "type": "series",
+   "name": "INDIGO",
+   "script": "Natural",
+   "bold": "Dye",
+   "series": "Story Series",
+   "image": {
+    "swatch": "arashi",
+    "color": "#3c58ac",
+    "seed": 21
+   }
+  },
+  {
+   "type": "spotlight",
+   "name": "Indigo",
+   "local": "Neel",
+   "latin": "Indigofera tinctoria",
+   "image": {
+    "scene": "powder",
+    "color": "#2c3f80",
+    "seed": 22
+   }
+  },
+  {
+   "type": "point",
+   "num": "01",
+   "title": "Green in the vat",
+   "body": "Cloth leaves the indigo vat green-yellow, then turns blue as it meets the air.",
+   "color": "#3c58ac",
+   "image": {
+    "scene": "fabric",
+    "color": "#3e55ae",
+    "seed": 23
+   }
+  },
+  {
+   "type": "statement",
+   "big": "TWO GRADES",
+   "caption_bold": "ESSTEBIO INDIGO BLUE",
+   "caption": "- hand-processed, plus grade 2001, machine-processed for consistent mill-scale dyeing.",
+   "image": {
+    "swatch": "kumo",
+    "color": "#3e55ae",
+    "seed": 24
+   }
+  },
+  {
+   "type": "end",
+   "line1": "Blue from a leaf.",
+   "line2": "Made in Jaipur.",
+   "cta": "Comment SHADE for the shade card"
+  }
+ ]
+}
