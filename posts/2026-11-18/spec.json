@@ -1,0 +1,26 @@
+{
+ "slides": [
+  {"type": "question", "text": "Can waste become colour?",
+   "image": {"scene": "liquid", "color": "#abb45b", "seed": 31}},
+  {"type": "spotlight", "name": "Pomegranate", "local": "Anar", "latin": "Punica granatum",
+   "image": {"scene": "powder", "color": "#abb45b", "seed": 32}},
+  {"type": "point", "num": "01", "title": "Rind becomes Mallow Gold", "body": "The peel left after the fruit is used is turned into our Mallow Gold Extract.",
+   "color": "#8a9440", "image": {"scene": "fabric", "color": "#abb45b", "seed": 33}},
+  {"type": "statement", "big": "PETALS & PEELS", "caption_bold": "SUN YELLOW · ONION PEEL",
+   "caption": "- marigold petals and onion skins, two waste streams turned into bright yellows.",
+   "image": {"swatch": "sunburst", "color": "#e4c92d", "seed": 34}},
+  {"type": "point", "num": "02", "title": "Bark, nut & resin", "body": "Garnet Brown from acacia bark, Nut Brown from areca nut. Wine Red (lac) and Cochineal: natural colour from insect resin.",
+   "color": "#965555", "image": {"scene": "stack", "colors": ["#ac856c", "#965555", "#c11172", "#ef2789"], "seed": 35}},
+  {"type": "palette", "title": "7 Dyes From Waste",
+   "items": [
+    {"name": "Mallow Gold", "sub": "Pomegranate rind", "color": "#abb45b"},
+    {"name": "Sun Yellow", "sub": "Marigold petals", "color": "#e8ec1f"},
+    {"name": "Onion Peel", "sub": "Onion skins", "color": "#e4e12d"},
+    {"name": "Garnet Brown", "sub": "Acacia bark", "color": "#ac856c"},
+    {"name": "Nut Brown", "sub": "Areca nut", "color": "#965555"},
+    {"name": "Wine Red", "sub": "Lac resin", "color": "#c11172"},
+    {"name": "Cochineal", "sub": "Cochineal", "color": "#ef2789"}
+   ]},
+  {"type": "end", "line1": "Colour from waste.", "line2": "Made in Jaipur.", "cta": "Save this for your next batch"}
+ ]
+}

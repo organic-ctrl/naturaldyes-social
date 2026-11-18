@@ -123,7 +123,8 @@ reel JSON files in `reels/` plus column D of the calendar. Don't repeat a concep
 line or chapter words. Concepts used so far:
 plant waste to colour (text cards, 16 Nov) · onion peel: kitchen waste to yellow (photostory, posted 15 Nov) · fibre test · shibori story · indigo leaf to blue · natural vs synthetic ·
 dye-source tour · mordants · news · plant waste to colour (photostory) · mini workshop: using an extract ·
-over-dyeing quiz · wedding-season palette · year in colour 2026.
+over-dyeing quiz · wedding-season palette · year in colour 2026 ·
+three oranges, one seed: annatto grades (pour, 18 Nov).
 Fresh ideas for after 15 Dec: myth vs fact, top 3 benefits, the science of colour fastness, water & ETP savings,
 farmers behind the dyes, extracts vs raw powders, block printing with natural dyes, colour of the month,
 dyeing at home vs at mill scale, how to store dye extracts, eco-printing with leaves, indigo vat chemistry made
