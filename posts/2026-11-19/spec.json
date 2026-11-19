@@ -1,0 +1,43 @@
+{
+ "slides": [
+  {"type": "education", "kicker": "COLOUR EDUCATION", "line1": "Our Natural", "accent": "Colour Palette", "line2": "Shade by Shade",
+   "quote": "Blues, reds, oranges, yellows, greens and browns: every shade starts in a root, seed, leaf, peel or resin.",
+   "dots": ["#3c58ac", "#e42d30", "#f57818", "#e8ec1f", "#65b062", "#be775a"], "swipe": "Swipe for the full tour"},
+  {"type": "spotlight", "name": "Indigo", "local": "Neel", "latin": "Indigofera tinctoria",
+   "image": {"scene": "powder", "color": "#3c58ac", "seed": 41}},
+  {"type": "labels", "title": "Reds & Pinks",
+   "labels": ["Turkey Red · madder root", "Jaipur Pink · sappan wood", "Wine Red 3001 · lac", "Cochineal"],
+   "colors": ["#e42d30", "#ce697c", "#c11172", "#ef2789"]},
+  {"type": "point", "num": "01", "title": "Three oranges, one seed", "body": "Candy Orange, Candy Orange Deep and Candy Orange 101, all from annatto seeds.",
+   "color": "#f57818", "image": {"scene": "fabric", "color": "#f57818", "seed": 42}},
+  {"type": "palette", "title": "The Yellows",
+   "items": [
+    {"name": "Cedar Yellow", "sub": "Myrobalan fruit", "color": "#cbc974"},
+    {"name": "Apsara Yellow", "sub": "Himalayan rhubarb", "color": "#cead5b"},
+    {"name": "Sun Yellow", "sub": "Marigold petals", "color": "#e8ec1f"},
+    {"name": "Onion Peel", "sub": "Onion skins", "color": "#e4e12d"},
+    {"name": "Onion Peel Bright", "sub": "Onion skins", "color": "#f0cd09"},
+    {"name": "Mallow Gold", "sub": "Pomegranate rind", "color": "#abb45b"}
+   ]},
+  {"type": "statement", "big": "GREEN FROM LEAVES", "caption_bold": "OLIVE GREEN",
+   "caption": "- made from mulberry leaves, and marked antibacterial on our product list.",
+   "image": {"swatch": "itajime", "color": "#65b062", "seed": 43}},
+  {"type": "point", "num": "02", "title": "Earthy browns", "body": "Michigan Brown (catechu), Garnet Brown (acacia bark), Bark Brown (arjuna) and Nut Brown (areca nut).",
+   "color": "#965555", "image": {"scene": "stack", "colors": ["#be775a", "#ac856c", "#b69472", "#965555"], "seed": 44}},
+  {"type": "boxed", "lines": ["Greys", "& Violets"], "small": ["Cedar Grey: myrobalan", "Cuttak Blue: alkanet root"],
+   "image": {"swatch": "kumo", "color": "#8a4fad", "seed": 45}},
+  {"type": "palette", "title": "The Palette at a Glance",
+   "items": [
+    {"name": "Indigo Blue", "sub": "Indigo", "color": "#3c58ac"},
+    {"name": "Turkey Red", "sub": "Madder root", "color": "#e42d30"},
+    {"name": "Jaipur Pink", "sub": "Sappan wood", "color": "#ce697c"},
+    {"name": "Candy Orange", "sub": "Annatto seeds", "color": "#fac439"},
+    {"name": "Sun Yellow", "sub": "Marigold", "color": "#e8ec1f"},
+    {"name": "Olive Green", "sub": "Mulberry leaves", "color": "#65b062"},
+    {"name": "Michigan Brown", "sub": "Black catechu", "color": "#be775a"},
+    {"name": "Cedar Grey", "sub": "Myrobalan", "color": "#868885"},
+    {"name": "Cuttak Blue", "sub": "Alkanet root", "color": "#8a4fad"}
+   ]},
+  {"type": "end", "line1": "Every shade, from nature.", "line2": "Made in Jaipur.", "cta": "Comment SAMPLE and we'll DM you"}
+ ]
+}
