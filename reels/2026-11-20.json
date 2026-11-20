@@ -1,0 +1,16 @@
+{
+  "hook": {"line1": "The juice gets drunk.", "line2": "The peel gets thrown.", "line3": "Or does it?",
+           "image": {"swatch": "kumo", "color": "#abb45b", "seed": 51}},
+  "title": {"big1": "MALLOW", "big2": "GOLD", "italic": "From pomegranate peel to colour",
+            "info": ["Mallow Gold Extract", "Punica granatum · made from waste rind"]},
+  "chapters": [
+    {"image": {"swatch": "ombre", "color": "#9c3b32", "seed": 52}, "title": "Rind.", "sub": "What's left after the juice"},
+    {"image": {"swatch": "itajime", "color": "#b5a24e", "seed": 53}, "title": "Rescue.", "sub": "Waste kept out of the bin"},
+    {"image": {"swatch": "spiral", "color": "#abb45b", "seed": 54}, "title": "Concentrate.", "sub": "Turned into a ready extract"},
+    {"image": {"swatch": "arashi", "color": "#a3a852", "seed": 55}, "title": "Bathe.", "sub": "Into the dye bath"},
+    {"image": {"swatch": "sunburst", "color": "#c2b866", "seed": 56}, "title": "Glow.", "sub": "A soft, earthy gold"},
+    {"image": {"swatch": "chevron", "color": "#abb45b", "seed": 57}, "title": "Repeat.", "sub": "Same shade, batch after batch"}
+  ],
+  "end": {"line1": "Fruit for breakfast.", "line2": "Gold for fabric.",
+          "name": "Sodhani Biotech", "role": "Natural dyes & dye extracts · Jaipur", "cta": "DM us for samples"}
+}

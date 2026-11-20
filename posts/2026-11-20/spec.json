@@ -1,0 +1,20 @@
+{
+ "slides": [
+  {"type": "statement", "big": "80% LESSER ETP COST", "caption_bold": "NATURAL DYEING",
+   "caption": "- cleaner wastewater means less work for the effluent treatment plant.",
+   "image": {"scene": "liquid", "color": "#3f8fa8", "seed": 61}},
+  {"type": "stats", "kicker": "WASTEWATER TEST · mg/L",
+   "stats": [
+    {"big": "5.1", "label": "BOD", "sub": "vs 318.4 with synthetic dyeing"},
+    {"big": "8.0", "label": "COD", "sub": "vs 274.1 with synthetic dyeing"},
+    {"big": "6.3", "label": "Suspended solids", "sub": "vs 270.6 with synthetic dyeing"}],
+   "color": "#2f6f86", "note": "Natural dyeing vs synthetic dyeing wastewater"},
+  {"type": "point", "num": "01", "title": "What is an ETP?",
+   "body": "An effluent treatment plant cleans dye-house wastewater before it leaves the mill.",
+   "color": "#4f7a3a", "image": {"scene": "fabric", "color": "#abb45b", "seed": 62}},
+  {"type": "boxed", "lines": ["Cleaner effluent,", "lower ETP cost"],
+   "small": ["Less load in,", "less cost to treat"],
+   "image": {"scene": "stack", "colors": ["#3c58ac", "#e42d30", "#fac439", "#65b062", "#be775a"], "seed": 63}},
+  {"type": "end", "line1": "Colour that keeps water clean.", "line2": "Made in Jaipur.", "cta": "DM us for samples"}
+ ]
+}
