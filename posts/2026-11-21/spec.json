@@ -1,0 +1,23 @@
+{
+ "slides": [
+  {"type": "boxed", "lines": ["Three oranges,", "one seed"], "small": ["Annatto ·", "Bixa orellana"],
+   "image": {"scene": "powder", "color": "#f57818", "seed": 71}},
+  {"type": "spotlight", "name": "Annatto", "local": "Sinduri", "latin": "Bixa orellana",
+   "image": {"scene": "fabric", "color": "#f78d44", "seed": 72}},
+  {"type": "point", "num": "01", "title": "The colour is in the seed",
+   "body": "Annatto seeds hold the orange. We extract it by machine for consistent batches.",
+   "color": "#c4581a", "image": {"scene": "liquid", "color": "#f57818", "seed": 73}},
+  {"type": "palette", "title": "One seed, three grades",
+   "items": [
+    {"name": "Candy Orange Extract", "sub": "Bright orange", "color": "#fac439"},
+    {"name": "Candy Orange Extract Deep", "sub": "Deep orange", "color": "#f57818"},
+    {"name": "Candy Orange Extract 101", "sub": "Soft orange", "color": "#f78d44"}]},
+  {"type": "point", "num": "02", "title": "Cultivated, fresh seeds",
+   "body": "Our annatto is a cultivated crop. We use fresh seeds, not waste, for this family.",
+   "color": "#4f7a3a", "image": {"scene": "stack", "colors": ["#fac439", "#f78d44", "#f57818", "#fac439", "#f57818"], "seed": 74}},
+  {"type": "statement", "big": "ANTIBACTERIAL", "caption_bold": "ALL THREE GRADES",
+   "caption": "- Candy Orange, Deep and 101 are marked antibacterial on our product list.",
+   "image": {"scene": "fabric", "color": "#fac439", "seed": 75}},
+  {"type": "end", "line1": "Three oranges, one seed.", "line2": "Made in Jaipur.", "cta": "Comment SHADE for the shade card"}
+ ]
+}
