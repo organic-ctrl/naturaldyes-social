@@ -1,0 +1,31 @@
+{
+ "slides": [
+  {"type": "series", "name": "TURKEY RED", "script": "Natural", "bold": "Dye", "series": "Story Series",
+   "image": {"swatch": "itajime", "color": "#e42d30", "seed": 81}},
+  {"type": "spotlight", "name": "Madder", "local": "Majith", "latin": "Rubia tinctorum",
+   "image": {"scene": "powder", "color": "#b8282b", "seed": 82}},
+  {"type": "point", "num": "01", "title": "The red hides underground",
+   "body": "Madder's colour sits in its roots, not its leaves or flowers.",
+   "color": "#a8322d", "image": {"scene": "stack", "colors": ["#e42d30", "#c4302f", "#a8322d", "#e85a4f", "#b8282b"], "seed": 83}},
+  {"type": "statement", "big": "ALIZARIN", "caption_bold": "THE RED MOLECULE",
+   "caption": "- the main colourant in madder root, dyeing cloth for thousands of years.",
+   "image": {"scene": "liquid", "color": "#e42d30", "seed": 84}},
+  {"type": "point", "num": "02", "title": "Wild-harvested, made by hand",
+   "body": "Turkey Red Extract RT uses fresh madder root, wild-harvested and processed by hand.",
+   "color": "#4f7a3a", "image": {"scene": "fabric", "color": "#e42d30", "seed": 85}},
+  {"type": "labels", "title": "One Root, Many Reds",
+   "labels": ["Alum", "Tin", "Copper", "Iron"],
+   "colors": ["#d6332f", "#e8583c", "#8f3b2a", "#5e2c35"]},
+  {"type": "point", "num": "03", "title": "Why is it called Turkey?",
+   "body": "The name comes from a famous madder-red process for cotton, traded from Ottoman lands.",
+   "color": "#a8322d", "image": {"swatch": "sunburst", "color": "#c4302f", "seed": 86}},
+  {"type": "boxed", "lines": ["One of the", "oldest reds"], "small": ["in textile", "history"],
+   "image": {"swatch": "ombre", "color": "#b8282b", "seed": 87}},
+  {"type": "stats", "kicker": "WHY GO NATURAL",
+   "stats": [{"big": "40%", "label": "lower carbon footprint", "sub": "from our LCA"},
+             {"big": "80%", "label": "lesser ETP cost", "sub": "cleaner wastewater"},
+             {"big": "100%", "label": "bio-based carbon", "sub": "Carbon-14 tested"}],
+   "color": "#e42d30", "note": "Sodhani Biotech company facts"},
+  {"type": "end", "line1": "Red from a root.", "line2": "Made in Jaipur.", "cta": "DM us for samples"}
+ ]
+}
