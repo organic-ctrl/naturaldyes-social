@@ -1,0 +1,16 @@
+{
+  "hook": {"line1": "A green leaf.", "line2": "A deep blue cloth.", "line3": "How does that happen?",
+           "image": {"swatch": "kumo", "color": "#3c58ac", "seed": 61}},
+  "title": {"big1": "INDIGO", "big2": "BLUE", "italic": "From leaf to blue",
+            "info": ["Esstebio Indigo Blue · Indigo Blue 2001", "Indigofera tinctoria · cultivated"]},
+  "chapters": [
+    {"image": {"swatch": "ombre", "color": "#4f7a3a", "seed": 62}, "title": "Grow.", "sub": "Indigofera tinctoria, cultivated"},
+    {"image": {"swatch": "chevron", "color": "#5d8a4a", "seed": 63}, "title": "Harvest.", "sub": "Green leaves, hidden blue"},
+    {"image": {"swatch": "itajime", "color": "#2f5a6e", "seed": 64}, "title": "Steep.", "sub": "Water draws out the colour"},
+    {"image": {"swatch": "spiral", "color": "#3c58ac", "seed": 65}, "title": "Breathe.", "sub": "Air turns it blue"},
+    {"image": {"swatch": "arashi", "color": "#2c3f80", "seed": 66}, "title": "Deepen.", "sub": "More dips, darker blue"},
+    {"image": {"swatch": "sunburst", "color": "#3e55ae", "seed": 67}, "title": "Scale.", "sub": "Hand grade, or machine grade 2001"}
+  ],
+  "end": {"line1": "Green in the field.", "line2": "Blue on the cloth.",
+          "name": "Sodhani Biotech", "role": "Natural dyes & dye extracts · Jaipur", "cta": "Comment SHADE for the shade card"}
+}

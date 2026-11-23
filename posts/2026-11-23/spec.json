@@ -1,0 +1,25 @@
+{
+ "slides": [
+  {"type": "question", "text": "Which of our dyes are antibacterial?",
+   "image": {"scene": "fabric", "color": "#ce697c", "seed": 91}},
+  {"type": "palette", "title": "9 extracts marked antibacterial",
+   "items": [
+    {"name": "Cedar Yellow Dyeing", "sub": "Myrobalan", "color": "#cbc974"},
+    {"name": "Jaipur Pink", "sub": "Sappan wood", "color": "#ce697c"},
+    {"name": "Olive Green", "sub": "Mulberry leaves", "color": "#65b062"},
+    {"name": "Wine Red 2001", "sub": "Lac", "color": "#cf1794"},
+    {"name": "Wine Red 3001", "sub": "Lac", "color": "#c11172"},
+    {"name": "Wine Red 4001", "sub": "Lac", "color": "#cb379d"},
+    {"name": "Candy Orange", "sub": "Annatto", "color": "#fac439"},
+    {"name": "Candy Orange Deep", "sub": "Annatto", "color": "#f57818"},
+    {"name": "Candy Orange 101", "sub": "Annatto", "color": "#f78d44"}
+   ]},
+  {"type": "spotlight", "name": "Myrobalan", "local": "Harad", "latin": "Terminalia chebula",
+   "image": {"scene": "powder", "color": "#cbc974", "seed": 92}},
+  {"type": "point", "num": "01", "title": "Five sources, five colour families",
+   "body": "Myrobalan, sappan wood, lac, annatto and mulberry leaves: yellow, pink, red, orange and green.",
+   "color": "#4f7a3a",
+   "image": {"scene": "stack", "colors": ["#cbc974", "#ce697c", "#c11172", "#f57818", "#65b062"], "seed": 93}},
+  {"type": "end", "line1": "Colour with a bonus.", "line2": "Made in Jaipur.", "cta": "Save this for your next batch"}
+ ]
+}
