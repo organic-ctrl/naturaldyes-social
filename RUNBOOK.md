@@ -46,6 +46,24 @@ locations). `data/company-factsheet.jpg` is the original fact sheet.
      haven't been used (check `posts/` for past spec.json titles).
 3. **Story:** `python3 tools/make_media.py story stories/YYYY-MM-DD.jpg "<kicker>" "<question or fact>" "<short line>"`.
    The API can't add poll, quiz or question stickers, so write the story as a question card ("Reply in DMs / comment on today's post").
+3b. **Second story: a different TYPE every day** (added 25 Nov at the user's request: "daily different type of story
+   on Instagram related to natural dye, natural food colors news"). Post it right after the calendar story.
+   Write `stories/specs/YYYY-MM-DD-b.json` and run `python3 tools/stories.py stories/specs/YYYY-MM-DD-b.json stories/YYYY-MM-DD-b.jpg`.
+   Types, fields and examples: docstring of `tools/stories.py` and `tools/examples/stories/`. Rotation by weekday (IST):
+   - Mon `news` topic `dye`: natural dyes / plant-based colour / sustainable textiles / dyeing pollution
+   - Tue `didyouknow`: one fact from data/products.json (company facts, a product's source or Latin name)
+   - Wed `news` topic `food`: natural food colours (synthetic dye phase-outs, new plant colourants, market news)
+   - Thu `mythfact`: one natural-dye myth vs fact
+   - Fri `news` topic `dye`
+   - Sat `spotlight` (one extract, its `shade` hex, source, Latin name; rotate, don't repeat a recent one) or `thisorthat` (two of our shades)
+   - Sun `news` topic `food`, or `stat` (one company number) if no good food-colour news
+   News rules: search the web for a REAL item from the last ~14 days (max 30) from a reputable outlet; read the article;
+   paraphrase (headline ≤ 12 words, summary ≤ 30 words); `source` = "Outlet · D Mon YYYY"; never invent news;
+   don't reuse a story already used (check `stories/specs/`). If nothing suitable, use `didyouknow` instead.
+   Food-colour news: we make TEXTILE dyes. Never say or imply our products are food colours, food-grade or edible.
+   Use the `ask` line to bridge to textiles or ask a question (e.g. "Food is going natural. Should textiles be next?").
+   Publish with `create_story` {image_url} (raw URL of stories/YYYY-MM-DD-b.jpg). If it fails, the day still counts as Posted;
+   note the failure in the summary.
 4. **Reel (Mon/Wed/Fri only, when column D has text):** column D starts with the style in brackets,
    e.g. `[quiz] Guess the plant…`. Write `reels/YYYY-MM-DD.json` for that style, then run
    `python3 tools/reels.py reels/YYYY-MM-DD.json reels/YYYY-MM-DD.mp4`.
@@ -79,6 +97,7 @@ locations). `data/company-factsheet.jpg` is the original fact sheet.
 7. Publish with Windsor `execute_action`:
    - `create_carousel_post` {image_urls, caption} (see step 2)
    - `create_story` {image_url}
+   - second story: `create_story` {image_url} (step 3b)
    - reel days: `create_video_post` {video_url, caption, share_to_feed: true}
 8. Set Status (column I) to `Posted`, or to `Skipped` with the reason if something failed.
 9. If no row exists for today (after 15 Dec 2026), write a new row in the same style (rotate: dye spotlight,
