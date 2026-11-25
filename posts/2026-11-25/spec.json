@@ -1,0 +1,142 @@
+{
+ "slides": [
+  {
+   "type": "statement",
+   "big": "100% BIO-BASED CARBON",
+   "caption_bold": "THE CARBON-14 TEST",
+   "caption": "- what a radiocarbon analysis of our dye proved.",
+   "image": {
+    "scene": "liquid",
+    "color": "#4f7a3a",
+    "seed": 101
+   }
+  },
+  {
+   "type": "point",
+   "num": "01",
+   "title": "Every dye contains carbon",
+   "body": "Plant dyes and synthetic dyes are both built on carbon. The real question is where it came from.",
+   "color": "#4f7a3a",
+   "image": {
+    "scene": "powder",
+    "color": "#abb45b",
+    "seed": 102
+   }
+  },
+  {
+   "type": "boxed",
+   "lines": [
+    "Plants take in",
+    "carbon-14"
+   ],
+   "small": [
+    "Living carbon carries",
+    "a natural signal"
+   ],
+   "image": {
+    "scene": "ecoprint",
+    "seed": 103
+   }
+  },
+  {
+   "type": "point",
+   "num": "02",
+   "title": "Fossil carbon has none",
+   "body": "Petroleum formed over millions of years. Its carbon-14 decayed long ago, so petrochemical carbon carries none.",
+   "color": "#6b4a2b",
+   "image": {
+    "scene": "fabric",
+    "color": "#868885",
+    "seed": 104
+   }
+  },
+  {
+   "type": "stats",
+   "kicker": "THE CARBON-14 SIGNAL",
+   "stats": [
+    {
+     "big": "5,730",
+     "label": "years",
+     "sub": "half-life of carbon-14"
+    },
+    {
+     "big": "0",
+     "label": "carbon-14 in oil",
+     "sub": "it decayed over millions of years"
+    },
+    {
+     "big": "100%",
+     "label": "bio-based carbon",
+     "sub": "our dye's test result"
+    }
+   ],
+   "color": "#2f6f86",
+   "note": "Radiocarbon tells living carbon from fossil carbon"
+  },
+  {
+   "type": "point",
+   "num": "03",
+   "title": "How the test works",
+   "body": "A lab measures how much carbon-14 a sample holds and compares it with carbon from living plants.",
+   "color": "#2f6f86",
+   "image": {
+    "scene": "liquid",
+    "color": "#3c58ac",
+    "seed": 105
+   }
+  },
+  {
+   "type": "labels",
+   "title": "Natural sources",
+   "labels": [
+    "Pomegranate rind",
+    "Marigold petals",
+    "Madder root",
+    "Indigo leaves",
+    "Annatto seeds"
+   ],
+   "colors": [
+    "#abb45b",
+    "#e8ec1f",
+    "#e42d30",
+    "#3c58ac",
+    "#fac439"
+   ]
+  },
+  {
+   "type": "statement",
+   "big": "NO FOSSIL CARBON",
+   "caption_bold": "OUR RESULT",
+   "caption": "- no evidence of synthetic, petrochemical carbon was found in our dye.",
+   "image": {
+    "scene": "stack",
+    "colors": [
+     "#3c58ac",
+     "#e42d30",
+     "#fac439",
+     "#65b062",
+     "#be775a"
+    ],
+    "seed": 106
+   }
+  },
+  {
+   "type": "point",
+   "num": "04",
+   "title": "Why it matters",
+   "body": "A bio-based claim backed by a lab test, not just a label. Something you can share with your buyers.",
+   "color": "#4f7a3a",
+   "image": {
+    "scene": "fabric",
+    "color": "#65b062",
+    "seed": 107
+   }
+  },
+  {
+   "type": "end",
+   "line1": "Carbon from plants, not oil.",
+   "line2": "Made in Jaipur.",
+   "cta": "Comment SHADE for the shade card"
+  }
+ ]
+}
