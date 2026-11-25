@@ -97,7 +97,7 @@ def t_news(s):
     y = para(d, 90, y + 120, s["headline"], f, (252, 246, 236), W - 180, 1.22)
     d.rectangle([90, y + 30, 250, y + 38], fill=GOLD)
     y = para(d, 90, y + 90, s["summary"], font(POP, 42), (225, 214, 196), W - 180, 1.45)
-    d.text((90, y + 40), "Source: " + s["source"], font=font(PF_I, 36), fill=GOLD)
+    para(d, 90, y + 40, "Source: " + s["source"], font(PF_I, 36), GOLD, W - 180, 1.3)
     ask = s.get("ask", "What do you think? Reply in DMs")
     box_y = H - 420
     d.rounded_rectangle([90, box_y, W - 90, box_y + 170], 30, fill=(252, 246, 236))
