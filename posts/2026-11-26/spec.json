@@ -1,0 +1,17 @@
+{
+ "slides": [
+  {"type": "boxed", "lines": ["Organic Cotton", "Handloom Fabric"], "small": ["A natural base", "for natural colour"],
+   "image": {"scene": "fabric", "color": "#e9dfcb", "seed": 261}},
+  {"type": "statement", "big": "NATURAL ON NATURAL", "caption_bold": "FABRIC + DYES",
+   "caption": "- organic cotton handloom fabric, alongside our natural dye extracts and mordants, from Jaipur",
+   "image": {"scene": "stack", "colors": ["#e9dfcb", "#3c58ac", "#e42d30", "#cbc974", "#ac856c"], "seed": 262}},
+  {"type": "point", "num": "01", "title": "Prep it naturally",
+   "body": "Cotton is a cellulose fibre: pre-treat with a tannin like Cedar Yellow Tannin, then alum, before dyeing.",
+   "color": "#4f7a3a",
+   "image": {"scene": "powder", "color": "#d4d896", "seed": 263}},
+  {"type": "labels", "title": "One base, many colours",
+   "labels": ["Esstebio Indigo Blue", "Turkey Red RT", "Sun Yellow", "Garnet Brown", "Olive Green"],
+   "colors": ["#3c58ac", "#e42d30", "#e8ec1f", "#ac856c", "#65b062"]},
+  {"type": "end", "line1": "Colour meets cloth.", "line2": "Made in Jaipur.", "cta": "Comment SAMPLE and we'll DM you"}
+ ]
+}
