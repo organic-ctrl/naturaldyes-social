@@ -10,6 +10,15 @@ Runs every day at 10:45 AM IST. Everything goes live around 11:00 AM IST.
 - **Media hosting:** this repo. Public URL pattern:
   `https://raw.githubusercontent.com/organic-ctrl/naturaldyes-social/main/<path>`
 
+## Style references (added 26 Nov at the user's request)
+The user wants future carousels and reels to take their style from these Instagram profiles:
+- https://www.instagram.com/florilegiumparis
+- https://www.instagram.com/the_sustainable_artist
+Instagram blocks automated viewing, so the runs can't open them. Use them as STYLE reference only (look, layout,
+pacing, hooks, text style). Never copy their photos, videos, captions or music. Write the concrete style notes
+below once the user sends screenshots or screen recordings, and follow them in steps 2 and 4.
+Style notes: (pending – waiting for screenshots from the user; until then keep the current style)
+
 ## Product knowledge (READ FIRST)
 `data/products.json` is the single source of truth: 27 extract products (source, Latin name, part used,
 fresh/waste, antibacterial flag, shade hex), 29 natural dyes, 11 mordants and the company facts (40% lower carbon footprint,
