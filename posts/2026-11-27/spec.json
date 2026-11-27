@@ -1,0 +1,21 @@
+{
+ "slides": [
+  {"type": "series", "name": "WINE RED", "script": "Natural", "bold": "Dye", "series": "Story Series",
+   "image": {"swatch": "itajime", "color": "#c11172", "seed": 91}},
+  {"type": "spotlight", "name": "Lac", "local": "Laakh", "latin": "Kerria lacca",
+   "image": {"scene": "powder", "color": "#cf1794", "seed": 92}},
+  {"type": "point", "num": "01", "title": "Colour from a resin",
+   "body": "Lac is a resin left on host trees by the tiny lac insect. Natural, not plant-based.",
+   "color": "#a8322d", "image": {"scene": "liquid", "color": "#c11172", "seed": 93}},
+  {"type": "labels", "title": "Three Grades, One Source",
+   "labels": ["Wine Red 2001", "Wine Red 3001", "Wine Red 4001"],
+   "colors": ["#cf1794", "#c11172", "#cb379d"]},
+  {"type": "point", "num": "02", "title": "Waste becomes wine red",
+   "body": "Our Wine Red starts from lac resin and lac waste water, processed by hand.",
+   "color": "#4f7a3a", "image": {"scene": "fabric", "color": "#cb379d", "seed": 94}},
+  {"type": "statement", "big": "ANTIBACTERIAL", "caption_bold": "ALL THREE GRADES",
+   "caption": "- 2001, 3001 and 4001 are marked antibacterial on our product list.",
+   "image": {"swatch": "ombre", "color": "#c11172", "seed": 95}},
+  {"type": "end", "line1": "Red from lac.", "line2": "Made in Jaipur.", "cta": "Comment SHADE for the shade card"}
+ ]
+}

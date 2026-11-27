@@ -1,0 +1,16 @@
+{
+  "hook": {"line1": "A sticky tree resin.", "line2": "A deep wine-red cloth.", "line3": "Can waste really do that?",
+           "image": {"swatch": "kumo", "color": "#c11172", "seed": 101}},
+  "title": {"big1": "WINE", "big2": "RED", "italic": "From lac resin to colour",
+            "info": ["Wine Red Extract 2001 · 3001 · 4001", "Kerria lacca · lac resin & lac waste water"]},
+  "chapters": [
+    {"image": {"swatch": "chevron", "color": "#8a3b2a", "seed": 102}, "title": "Gather.", "sub": "Lac resin from host trees"},
+    {"image": {"swatch": "spiral", "color": "#a8325a", "seed": 103}, "title": "Rescue.", "sub": "Lac waste water, not wasted"},
+    {"image": {"swatch": "arashi", "color": "#c11172", "seed": 104}, "title": "Extract.", "sub": "Processed by hand"},
+    {"image": {"swatch": "itajime", "color": "#cf1794", "seed": 105}, "title": "Grade.", "sub": "2001, 3001 and 4001"},
+    {"image": {"swatch": "sunburst", "color": "#cb379d", "seed": 106}, "title": "Protect.", "sub": "All three marked antibacterial"},
+    {"image": {"swatch": "ombre", "color": "#b0186e", "seed": 107}, "title": "Wear.", "sub": "Wine red, the natural way"}
+  ],
+  "end": {"line1": "Waste in the vat.", "line2": "Wine red on the cloth.",
+          "name": "Sodhani Biotech", "role": "Natural dyes & dye extracts · Jaipur", "cta": "DM us for samples"}
+}
