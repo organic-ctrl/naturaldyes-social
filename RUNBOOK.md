@@ -17,7 +17,24 @@ The user wants future carousels and reels to take their style from these Instagr
 Instagram blocks automated viewing, so the runs can't open them. Use them as STYLE reference only (look, layout,
 pacing, hooks, text style). Never copy their photos, videos, captions or music. Write the concrete style notes
 below once the user sends screenshots or screen recordings, and follow them in steps 2 and 4.
-Style notes: (pending – waiting for screenshots from the user; until then keep the current style)
+Style notes (from 2 reference reels the user sent on 27 Nov; written from the videos, nothing copied):
+- **Real material first, words second.** Reel A (~30 s) is plain handheld process footage, shot from above in daylight:
+  dry dye material in a steel pot → the bath boiling → white cloth dipped and lifted out coloured → the finished
+  fabric held in a hand. Then the same arc again for a second dye. There's no title card, no end card and no
+  big text. The only on-screen text is one tiny white italic label per ingredient ("English name / local name"),
+  centred, shown for 2–3 s.
+- **Pacing:** one shot every ~2.5–5 s, hard cuts, 20–30 s in all. The colour change (white cloth → coloured) is the hero moment.
+- **Reel B (~7 s), a collage build:** a photo of a bare tree against a blue sky. Fabric swatches cut into leaf-like
+  pieces pop in one by one until the branches are covered in naturally dyed cloth. One short line of white caps
+  text sits in the centre for the first half. Ends on a calm brand card: logo on textured off-white paper with a few
+  hand-drawn flowers.
+- **What this means for us:**
+  1. Text on screen: max ~6 words at a time, small and elegant. Put the facts (Latin name, grades, source) in the CAPTION, not on screen.
+  2. Prefer showing a transformation (raw material → bath → cloth) over talking about it.
+  3. Real photos/clips from `photos/` beat generated swatches every time. We have none yet, so this is the biggest gap (see the summary under "Needs Aman").
+  4. Short collage/build reels (7–12 s, our shades as cut fabric pieces filling a shape) are a good alternate format.
+  5. End card: quiet and branded (off-white paper, logo or name, one CTA), not a busy info card.
+  6. Carousels: same rules. Fewer words per slide, more full-bleed colour/fabric, facts in the caption.
 
 ## Product knowledge (READ FIRST)
 `data/products.json` is the single source of truth: 27 extract products (source, Latin name, part used,
