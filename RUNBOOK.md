@@ -94,7 +94,21 @@ locations). `data/company-factsheet.jpg` is the original fact sheet.
    e.g. `[quiz] Guess the plant…`. Write `reels/YYYY-MM-DD.json` for that style, then run
    `python3 tools/reels.py reels/YYYY-MM-DD.json reels/YYYY-MM-DD.mp4`.
    Styles and their JSON fields are in the docstring of `tools/reels.py`; working examples are in `tools/examples/`.
-   - **`photostory` is the user's favourite style and the default** (modelled on a reference reel they sent):
+   - **`collage` is now the DEFAULT reel style (user, 27 Nov: "make them like these reference reels, but a different
+     concept every day – not a tree every day").** Run `python3 tools/collage.py reels/YYYY-MM-DD.json reels/YYYY-MM-DD.mp4`.
+     Spec: docstring of `tools/collage.py`; examples in `tools/examples/collage/`. Keep the TOPIC from column D, but tell it
+     as a collage: our product shades as cut fabric pieces filling a shape, 1–3 short caps lines, tiny colour labels, calm end card.
+     **Every reel needs a NEW concept** = a new shape + background + idea that fits the topic. Shapes: tree, leaf, kurta, pot,
+     lotus, drop, heart, mandala, sun, butterfly, or `word` (any 1–2 short words, e.g. JAIPUR, LAC, INDIGO, WASTE→COLOUR, 2027).
+     Never use the same shape two reels in a row, never the same shape+idea twice, and rotate backgrounds
+     (sky, paper, dusk, wall, indigo, sand). Ideas: the shape should mean something for the topic (a drop for wastewater,
+     a pot for the dye bath, a kurta for "wear it", the product name as a `word`, a leaf for plant sources, a heart for "thank you").
+     Pick colours from data/products.json `shade` hexes, 3–6 per reel, with name labels like "Wine Red 3001 · lac".
+     If a shape that fits the idea doesn't exist yet, add it to `tools/collage.py` (a mask function in SHAPES) and test it.
+     Add the concept to "Collage concepts used" below.
+   - When real process clips/photos exist in `photos/`, use `photostory` (or a cut of the real clips) for process topics
+     (raw material → bath → coloured cloth), as in the user's sappanwood reference reel.
+   - **`photostory`** (the user's earlier favourite) (modelled on a reference reel they sent):
      run `python3 tools/photostory.py reels/YYYY-MM-DD.json reels/YYYY-MM-DD.mp4` instead of reels.py.
      Spec format: docstring of `tools/photostory.py`, example `tools/examples/photostory.json`.
      Hook = 2 short lines + a question; title card = two big words + an italic line; 5–7 chapters, each ONE word with
@@ -113,7 +127,7 @@ locations). `data/company-factsheet.jpg` is the original fact sheet.
      textile dyeing pollution or sustainable textiles, from a reputable outlet. Paraphrase it in your own words
      (headline ≤ 12 words, summary ≤ 30 words) and put the outlet and date in `source`. Name the source in the caption too.
      Never invent news. If nothing suitable is found, use a `top3` about the benefits of natural dyes instead.
-   - If D has no style tag (e.g. after 15 Dec): use `photostory` on Mondays and Fridays; on Wednesdays use one of the
+   - If D has no style tag (e.g. after 15 Dec): use `collage` (new concept) on Mondays and Fridays; on Wednesdays use one of the
      other styles, whichever was used least recently. Pick a fresh topic each time:
      dyeing process, mini workshops, natural vs synthetic, dye extracts, benefits, mordants, colour sources, or news.
    Write a reel caption: 1–2 hooky lines, a question or CTA, then the same hashtags as the day's post.
@@ -174,6 +188,10 @@ Fresh ideas for after 15 Dec: myth vs fact, top 3 benefits, the science of colou
 farmers behind the dyes, extracts vs raw powders, block printing with natural dyes, colour of the month,
 dyeing at home vs at mill scale, how to store dye extracts, eco-printing with leaves, indigo vat chemistry made
 simple, Holi/festival colours, customer creations.
+
+## Collage concepts used (never repeat a shape+idea; never the same shape twice in a row)
+(none yet – first collage reel is due Mon 30 Nov. tools/examples/collage/ holds test examples only: tree/waste colours,
+word JAIPUR, lotus pinks – those three ideas count as used, so don't post them as they are)
 
 ## Rules
 - Only make claims that are already in the calendar or that are well established about natural dyes. No prices, no certifications.
