@@ -166,8 +166,11 @@ locations). `data/company-factsheet.jpg` is the original fact sheet.
 4. Unsure or sensitive (complaints, quality issues, payment, legal, competitors)? Do NOT reply. List it under
    "Needs Aman" in the run summary.
 5. Leads: anyone asking about price, samples, MOQ, bulk, export, distributorship or "interested". List each one in the
-   run summary as: @username · what they asked · post link. Also append it to the "Leads" sheet of the calendar
-   (columns: Date, Username, Comment, Post link, Status = "New") if that sheet exists.
+   run summary as: @username · what they asked · post link. Also append it as a new row to the ONE master leads
+   sheet, the Claude Sheet "India Leads – Sodhani Biotech" https://claude.ai/artifact/PNVtQLx478Wcg5jePp8c3M
+   (sheet "Leads", columns A–X): A next S.No, B today, C best-fit product line, D @username, E "Instagram comment",
+   L post link, M what they asked, O Status "New", Q the comment text; leave unknown columns blank. Skip it if that
+   @username is already in column D. (User, 28 Nov: never make a new Excel/file for leads – always add to this one sheet.)
 
 ## Lead-friendly content rules
 - Every caption ends with ONE clear call to action: "DM us for samples", "Comment SHADE for the shade card",
