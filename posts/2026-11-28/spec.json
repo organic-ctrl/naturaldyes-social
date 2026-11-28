@@ -1,0 +1,31 @@
+{
+ "slides": [
+  {"type": "question", "text": "What is a mordant?",
+   "image": {"scene": "stack", "colors": ["#cbc974", "#868885", "#abb45b", "#be775a", "#ce697c"], "seed": 271}},
+  {"type": "point", "num": "01", "title": "The bridge to the fibre",
+   "body": "A mordant is a metal salt or plant agent that helps natural dye bind to fibre.",
+   "color": "#4f7a3a", "image": {"scene": "liquid", "color": "#cbc974", "seed": 272}},
+  {"type": "labels", "title": "One Fruit, Three Mordants",
+   "labels": ["Myrobalan + Alum", "Myrobalan + Copper", "Myrobalan + Iron"],
+   "colors": ["#cbc974", "#8a8f3a", "#868885"]},
+  {"type": "point", "num": "02", "title": "Alum keeps it bright",
+   "body": "Alum, aluminium acetate and triformate give clear, bright shades. Acetate and triformate suit cotton.",
+   "color": "#d6a440", "image": {"scene": "fabric", "color": "#e8ec1f", "seed": 273}},
+  {"type": "spotlight", "name": "Symplocos", "local": "Lodhra", "latin": "Symplocos racemosa",
+   "image": {"scene": "powder", "color": "#c9b98a", "seed": 274}},
+  {"type": "point", "num": "03", "title": "Iron and copper deepen",
+   "body": "Ferrous sulphate saddens shades toward grey and black. Copper sulphate pulls them deeper, toward olive.",
+   "color": "#5a5a52", "image": {"swatch": "ombre", "color": "#868885", "seed": 275}},
+  {"type": "boxed", "lines": ["Tin &", "Tartar"], "small": ["Brighter reds,", "softer wool"],
+   "image": {"scene": "fabric", "color": "#e42d30", "seed": 276}},
+  {"type": "statement", "big": "VAT HELPERS", "caption_bold": "HYDRO & CAUSTIC",
+   "caption": "- reduce and dissolve indigo so it can enter the fibre.",
+   "image": {"swatch": "arashi", "color": "#3c58ac", "seed": 277}},
+  {"type": "stats", "kicker": "OUR MORDANT RANGE",
+   "stats": [{"big": "11", "label": "mordants", "sub": "metal salts, plant & vat agents"},
+             {"big": "1", "label": "plant mordant", "sub": "lodhra (symplocos)"},
+             {"big": "2", "label": "vat helpers", "sub": "hydro & caustic"}],
+   "color": "#4f7a3a", "note": "Ask us which mordant fits your dye and fibre."},
+  {"type": "end", "line1": "Same dye.", "line2": "A whole new shade.", "cta": "Save this for your next batch"}
+ ]
+}
